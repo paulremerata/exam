@@ -11,11 +11,10 @@ def remove_duplicates(x):
         c=True
     return l
 print "Sorted and Purified "+str(sorted(remove_duplicates(random_numbers)))
-<<<<<<< HEAD
-y=raw_input("add or divide or multiply?")
-=======
+
+
 y=raw_input("add or subtract or divide or multiply?")
->>>>>>> subtract
+
 if y=="add":
 	x=int(raw_input("first number"))
 	y=int(raw_input("2nd number"))
@@ -28,11 +27,11 @@ elif(y=="divide"):
 	x=int(raw_input("first number"))
 	y=int(raw_input("2nd number"))
 	print x/y
-<<<<<<< HEAD
 
-=======
 elif(y=="subtract"):
 	x=int(raw_input("first number"))
 	y=int(raw_input("2nd number"))
 	print x-y
->>>>>>> subtract
+
+
+print "Hello world"
