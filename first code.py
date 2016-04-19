@@ -10,4 +10,4 @@ def remove_duplicates(x):
             l.append(i)
         c=True
     return l
-print str(sorted(remove_duplicates(random_numbers)))
+print "Sorted and Purified "+str(sorted(remove_duplicates(random_numbers)))
