@@ -12,6 +12,12 @@ def remove_duplicates(x):
     return l
 print "Sorted and Purified "+str(sorted(remove_duplicates(random_numbers)))
 
-x=int(raw_input("first number"))
-y=int(raw_input("2nd number"))
-print x+y
+if raw_input("add or multiply?")=="add":
+	x=int(raw_input("first number"))
+	y=int(raw_input("2nd number"))
+	print x+y
+else:
+	x=int(raw_input("first number"))
+	y=int(raw_input("2nd number"))
+	print x*y
+
