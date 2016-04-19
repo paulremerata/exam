@@ -34,4 +34,8 @@ elif(y=="subtract"):
 	print x-y
 
 
+<<<<<<< HEAD
 
+=======
+print "Hello world"
+>>>>>>> hello
